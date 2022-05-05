@@ -104,6 +104,19 @@
     font-size: clamp(0.4rem, 1.5vw, 1.05rem);
     line-height: 1.5; }
 
+.boost_h-1 {
+  margin-bottom: 2rem;
+  color: #fff;
+  font-size: 2.4rem; }
+
+.boost_btn {
+  padding: 0.7rem 2.2rem;
+  color: #fff;
+  background-color: var(--Cyan);
+  border: none;
+  border-radius: 50px;
+  font-weight: bold; }
+
 .nav {
   min-height: 5rem;
   display: flex;
@@ -129,7 +142,6 @@
   min-height: 50rem;
   margin: 5rem auto 0 auto;
   padding: 0 8vw;
-  margin-bottom: 5rem;
   background-color: rgba(213, 210, 210, 0.371);
   display: flex;
   flex-direction: column; }
@@ -143,6 +155,24 @@
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 12px; }
+
+.boost {
+  min-height: 15rem;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 8vw;
+  background-color: var(--Dark-Violet);
+  background-image: url(/images/bg-boost-desktop.svg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.footer {
+  min-height: 17rem;
+  background-color: #000;
+  max-width: 1440px;
+  margin: 0 auto; }
 
 :root {
   --Cyan: hsl(180, 66%, 49%);

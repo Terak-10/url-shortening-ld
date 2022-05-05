@@ -158,3 +158,24 @@
         line-height: 1.5;
     }
 }
+
+// BOOST
+
+.boost {
+    &_h-1 {
+        margin-bottom: 2rem;
+        color: #fff;
+        font-size: 2.4rem;
+    }
+
+    &_btn {
+        padding: 0.7rem 2.2rem;
+        color: #fff;
+        background-color: var(--Cyan);
+        border: none;
+        border-radius: 50px;
+        font-weight: bold;  
+    }
+}
+
+// FOOTER

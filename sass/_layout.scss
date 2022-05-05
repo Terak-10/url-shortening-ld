@@ -25,7 +25,6 @@
     min-height: 50rem;
     margin: 5rem auto 0 auto;
     padding: 0 8vw;
-    margin-bottom: 5rem;
     background-color: hsla(0, 3%, 83%, 0.371);
 
     display: flex;
@@ -41,4 +40,25 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
+}
+
+.boost {
+    min-height: 15rem;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 8vw;
+    background-color: var(--Dark-Violet);
+    background-image: url(/images/bg-boost-desktop.svg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer {
+    min-height: 17rem;
+    background-color: #000;
+    max-width: 1440px;
+    margin: 0 auto;
+
 }

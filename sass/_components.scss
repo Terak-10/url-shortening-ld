@@ -179,3 +179,37 @@
 }
 
 // FOOTER
+.logo-footer {
+    color: #fff;
+    margin-right: 10rem; 
+    padding-bottom: 3rem;
+}
+
+
+.features,
+.resources,
+.company {
+    margin-top: 0.8rem;
+    margin-right: 3rem;
+    padding-bottom: 3rem;
+
+    &_p{
+        color: #fff;
+        padding-bottom: 1rem;
+    }
+
+    &_link:link,
+    &_link:visited {
+        text-decoration: none;
+        color: var(--Grayish-Violet);
+        font-size: 0.8rem;
+    }
+}
+
+.icon-box {
+    margin-top: 0.8rem;
+    
+    &_item {
+        margin-left: 1rem;
+    }
+}

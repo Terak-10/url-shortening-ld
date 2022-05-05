@@ -22,7 +22,7 @@
 
 .main {
     max-width: 1440px;
-    min-height: 50rem;
+    min-height: 52rem;
     margin: 5rem auto 0 auto;
     padding: 0 8vw;
     background-color: hsla(0, 3%, 83%, 0.371);
@@ -60,5 +60,10 @@
     background-color: #000;
     max-width: 1440px;
     margin: 0 auto;
+    padding: 4rem 8vw 2rem 8vw;
 
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }

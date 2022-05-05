@@ -117,6 +117,36 @@
   border-radius: 50px;
   font-weight: bold; }
 
+.logo-footer {
+  color: #fff;
+  margin-right: 10rem;
+  padding-bottom: 3rem; }
+
+.features,
+.resources,
+.company {
+  margin-top: 0.8rem;
+  margin-right: 3rem;
+  padding-bottom: 3rem; }
+  .features_p,
+  .resources_p,
+  .company_p {
+    color: #fff;
+    padding-bottom: 1rem; }
+  .features_link:link, .features_link:visited,
+  .resources_link:link,
+  .resources_link:visited,
+  .company_link:link,
+  .company_link:visited {
+    text-decoration: none;
+    color: var(--Grayish-Violet);
+    font-size: 0.8rem; }
+
+.icon-box {
+  margin-top: 0.8rem; }
+  .icon-box_item {
+    margin-left: 1rem; }
+
 .nav {
   min-height: 5rem;
   display: flex;
@@ -139,7 +169,7 @@
 
 .main {
   max-width: 1440px;
-  min-height: 50rem;
+  min-height: 52rem;
   margin: 5rem auto 0 auto;
   padding: 0 8vw;
   background-color: rgba(213, 210, 210, 0.371);
@@ -172,7 +202,12 @@
   min-height: 17rem;
   background-color: #000;
   max-width: 1440px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 4rem 8vw 2rem 8vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap; }
 
 :root {
   --Cyan: hsl(180, 66%, 49%);
